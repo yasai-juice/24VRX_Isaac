@@ -5,8 +5,8 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     private CharacterController characterController;
-    public float Speed = 3.5f;
 
+    public float Speed = 5.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,5 @@ public class Character : MonoBehaviour
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         characterController.Move(move * Time.deltaTime * Speed);
-
-
     }
 }
