@@ -14,9 +14,9 @@ public class PlaybackManager : MonoBehaviour
 
     public void TransitionDay()
     {
-        if (!audioSource.isPlaying)
+        if (!audio1.isPlaying)
         {
-            audioSource.PlayOneShot(myClip);
+            audio1.PlayOneShot(myClip);
         }
         Debug.Log("clip played");
     }
