@@ -283,7 +283,7 @@ PrefabInstance:
     - target: {fileID: 1229317934655840955, guid: 2c588511d8fe85e439121f7b349cc924,
         type: 3}
       propertyPath: m_Name
-      value: Orange Cube
+      value: Green Cube
       objectReference: {fileID: 0}
     - target: {fileID: 2141443166881035188, guid: 2c588511d8fe85e439121f7b349cc924,
         type: 3}
